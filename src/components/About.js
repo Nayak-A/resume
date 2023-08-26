@@ -25,11 +25,12 @@ function About() {
 					About
 				</Typography>
 
+				<Typography variant="body2">
+					<strong>👩‍💻 .NET Developer | ☁️ Azure Enthusiast | 🩺 Healthcare Tech Professional</strong>
+				</Typography>
+
 				<Typography variant="body2" color='#FFFFFFA3'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-					blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-					neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-					quasi quidem quibusdam.
+					Welcome to my digital playground! I'm a seasoned .NET developer with 5 years of healthcare tech expertise. From code to CI/CD, I bring end-to-end solutions to life. Let's explore my journey together. 🚀
 				</Typography>
 			</Box>
 		</Container>
