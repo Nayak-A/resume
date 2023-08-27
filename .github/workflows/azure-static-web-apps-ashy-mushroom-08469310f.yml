@@ -1,13 +1,11 @@
-name: Azure Static Web Apps CI/CD
+name: Deploy to Azure
 
 on:
-  push:
-    branches:
-      - prod
   pull_request:
-    types: [opened, synchronize, reopened, closed]
+    types: [closed]  # This workflow will trigger only when a pull request is closed
     branches:
       - prod
+  workflow_dispatch: {} # Allow manual triggering of the workflow
 
 jobs:
   build_and_deploy_job:
