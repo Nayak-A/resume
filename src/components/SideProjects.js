@@ -8,8 +8,7 @@ import {
   Tooltip
 } from "@mui/material";
 import {
-  SportsEsports as SportsEsportsIcon,
-  Launch as LaunchIcon
+  SportsEsports as SportsEsportsIcon
 } from '@mui/icons-material';
 
 function SideProjects() {
