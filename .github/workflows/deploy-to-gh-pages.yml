@@ -1,8 +1,6 @@
 name: Deploy to GitHub Pages
 
 on:
-  # pull_request:
-  #   types: [closed]  # This workflow will trigger only when a pull request is closed
   push:
     branches:
       - [master, prod]
