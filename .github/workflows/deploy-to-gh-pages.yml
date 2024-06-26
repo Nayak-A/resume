@@ -1,10 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  pull_request:
-    types: [closed]  # This workflow will trigger only when a pull request is closed
-    branches:
-      - prod
+  # pull_request:
+  #   types: [closed]  # This workflow will trigger only when a pull request is closed
+  branches:
+    - [master, prod]
   workflow_dispatch: {} # Allow manual triggering of the workflow
 
 jobs:
@@ -17,10 +17,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 20
+          node-version: 14
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build React App
         run: npm run build # Adjust this command based on your build setup
