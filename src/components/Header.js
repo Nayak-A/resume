@@ -12,7 +12,8 @@ import {
 	GitHub as GitHubIcon,
 	LinkedIn as LinkedInIcon,
 	Instagram as InstagramIcon,
-	WhatsApp as WhatsAppIcon
+	WhatsApp as WhatsAppIcon,
+	FileOpen as FileOpenIcon
 } from '@mui/icons-material';
 
 const socialLinks = [
@@ -39,6 +40,12 @@ const socialLinks = [
 		url: "https://wa.me/919776591100",
 		username: "(+91) 97765 91100",
 		icon: <WhatsAppIcon fontSize="small" />,
+	},
+	{
+		name: "Resume",
+		url: "/static/documents/Resume_ArpitaNayak.pdf",
+		username: "View Resume",
+		icon: <FileOpenIcon fontSize="small" />,
 	},
 ];
 
