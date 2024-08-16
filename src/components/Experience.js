@@ -11,34 +11,28 @@ function Experience() {
   // Array of work experiences
   const workExperiences = [
     {
-      date: "Jun 2022 - Current",
-      productName: "Product Name 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum",
-      technologies: "TS • Next • Nest • Stitches • Mobx • Turbo",
+      date: "January 2021 - January 2023",
+      productName: "Senior Software Engineer",
+      description: "Continued development and support for applications on Azure. Also started work on building data pipelines using spark.",
+      technologies: ".NETCore • C# • SQL • Azure • Azure DevOps • Databricks • Git • Docker • PowerShell",
     },
     {
-      date: "Aug 2021 - Jun 2022",
-      productName: "Product Name 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum",
-      technologies: "TS • Next • Nest • Stitches • Mobx • Turbo",
+      date: "January 2020 - January 2021",
+      productName: "Software Engineer",
+      description: "Migrated 5 application and their CICD processes to Azure, and setup processes to run them on AzureBatch. Along with creating cross-platform C# applications using .NET Core, which would run in docker containers",
+      technologies: ".NETCore • C# • SQL • Azure • Azure DevOps • Git • Docker • PowerShell",
     },
     {
-      date: "Apr 2020 - Aug 2021",
-      productName: "Product Name 3",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum",
-      technologies: "TS • Next • Nest • Stitches • Mobx • Turbo",
+      date: "June 2019 - January 2020",
+      productName: "Associate Software Engineer",
+      description: "Created cross-platform WPF and Console applications using .NET Core, which could run as standalone applications or with other Milliman products. They primarily analysed and grouped medical data to help organizations visualize the information and help make crucial business decisions.",
+      technologies: ".NETCore • C# • SQL • TeamCity • SVN • PowerShell • Pascal",
     },
     {
-      date: "Feb 2018 - Apr 2020",
-      productName: "Product Name 4",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum",
-      technologies: "TS • Next • Nest • Stitches • Mobx • Turbo",
-    },
-    {
-      date: "Dec 2017 - Feb 2018",
-      productName: "Product Name 5",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum",
-      technologies: "TS • Next • Nest • Stitches • Mobx • Turbo",
+      date: "May 2018 - June 2019",
+      productName: "Trainee Software Engineer",
+      description: "Created WPF and Console applications using .NET, which could run as standalone applications or with other Milliman products. They primarily analysed and grouped medical data to help organizations visualize the information and help make crucial business decisions.",
+      technologies: ".NET • C# • SQL • TeamCity • SVN • PowerShell",
     },
   ];
 
