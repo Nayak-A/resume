@@ -11,25 +11,25 @@ function Experience() {
   // Array of work experiences
   const workExperiences = [
     {
-      date: "January 2021 - January 2023",
+      date: "Jan 2021 - Aug 2023",
       productName: "Senior Software Engineer",
       description: "Continued development and support for applications on Azure. Also started work on building data pipelines using spark.",
       technologies: ".NETCore • C# • SQL • Azure • Azure DevOps • Databricks • Git • Docker • PowerShell",
     },
     {
-      date: "January 2020 - January 2021",
+      date: "Jan 2020 - Jan 2021",
       productName: "Software Engineer",
       description: "Migrated 5 application and their CICD processes to Azure, and setup processes to run them on AzureBatch. Along with creating cross-platform C# applications using .NET Core, which would run in docker containers",
       technologies: ".NETCore • C# • SQL • Azure • Azure DevOps • Git • Docker • PowerShell",
     },
     {
-      date: "June 2019 - January 2020",
+      date: "Jun 2019 - Jan 2020",
       productName: "Associate Software Engineer",
       description: "Created cross-platform WPF and Console applications using .NET Core, which could run as standalone applications or with other Milliman products. They primarily analysed and grouped medical data to help organizations visualize the information and help make crucial business decisions.",
       technologies: ".NETCore • C# • SQL • TeamCity • SVN • PowerShell • Pascal",
     },
     {
-      date: "May 2018 - June 2019",
+      date: "May 2018 - Jun 2019",
       productName: "Trainee Software Engineer",
       description: "Created WPF and Console applications using .NET, which could run as standalone applications or with other Milliman products. They primarily analysed and grouped medical data to help organizations visualize the information and help make crucial business decisions.",
       technologies: ".NET • C# • SQL • TeamCity • SVN • PowerShell",
